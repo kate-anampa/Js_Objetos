@@ -40,12 +40,28 @@ Object.seal(obj)
  ```
 Object.assign()
  ```
-9. Palabra reservada this en objeto literal: Se utiliza para referirse al propio objeto dentro del cual se está llamando
+9. Palabra reservada this en objeto literal: 
+Se utiliza para referirse al propio objeto dentro del cual se está llamando
 
 
-10. Recorrer: Se referefiere a algo que te permite recorrer una estructura de datos por todos sus apartados o miembros.
+10. Recorrer:
+ Se referefiere a algo que te permite recorrer una estructura de datos por todos sus apartados o miembros.
 
+values(): Itera sobre los valores de los elementos.
+keys(): Itera sobre las claves o índices de los elementos.
+entries(): Itera sobre pares [clave, valor] de los elementos.
 
+ ```
+const keys = Object.keys(objeto);
+console.log(keys);
+
+const values = Object.values(objeto);
+console.log(values);
+
+const entries = Object.entries(objeto);
+console.log(entries);
+
+ ```
 
 ## 🛠 Skills
 HTML, JS, CSS...
